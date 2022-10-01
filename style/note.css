@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    color: #0F1111;
+}
+/*!--------------------------------header--------------------------------*/
+
+/*---------------------------------header-top-----------------------------*/
+.header-top{
+background-color: #131921;
+display: flex;
+
+}
+.header-top_left{
+    margin-left: 11px;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+}
+.header-top_logo{
+    height: 50px;
+    width: 120px;
+    width: auto;
+    padding: 4px 0 0 0;
+     
+}
+
+.del{
+    margin-left: 3px;
+}
+.Deliver-to{
+    font-size:14px;
+    color:#686868;
+    line-height:14px;
+    margin-bottom: 2px;
+}
+.Israel{
+    font-size:16px;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+}
+#nav-global-icon {
+    width: 15px;
+    font-size: 18px;
+    margin-top: 8px;
+}
+.nav-fill{
+    padding-left: 10px;
+    
+}
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 739.875px;
+    padding: 10px 3px;
+    /* border: white 2px solid; */
+}
+.btn-all{
+    width: 45px;
+    height: 38px;
+    margin: -10px -3px;
+    padding: 5px 5px;
+    /* border: gray 2px solid; */
+    background-color: #fafafa;
+}
+.nav-search-left{
+    height: 36px;
+}
+.nav-search-botom{
+background: white;
+height: auto;
+width: 644px;
+height: 36px;
+margin: -9px 4px;
+}
+.nav-search-right{
+    background-color: #F3A847;
+    width: 45px;
+    height: 36px;
+    margin: -9px -4px;
+}
+
+.header-top_right{
+
+}
+
+
+
+
+/*--------------------------------header-mid-------------------------------------*/
+.header-mid{
+    height: 39px;
+    background-color: #232f3e;
+    display:  flex;
+
+}
+.header-mid-left{
+    align-items: center;
+    width: auto;
+    height: auto;
+    border: none;
+    text-decoration: none;
+    padding: 8px 9px 8px 9px;
+    margin: 5px 0 6px 0;
+}
+    .header-mid.header-mid-left.i{
+    width: 17px;
+    height: 14px;
+    background-position: -172px -255px; 
+}
+
+.header-mid-right{
+    display: flex;
+    position: static;
+    float: none;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    color: white;
+}
+.header-mid-right a{
+    color: white;
+    padding-right: 9px;
+    padding-left: 5px;
+    justify-content: flex-start;
+    height: 12px;
+    margin-top: 14px;
+   
+}
+.All{
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-top: 12px;
+    white-space: nowrap
+}
+/*--------------------------------header-note-------------------------------------*/
+
+
+
+
+.header-note{
+height: 48px;
+padding-left: 18px;
+padding-top: 14px;
+background: #d8f7eb!important;
+font-family: inherit;
+}
+
+
+
+/*--------------------------------header-bottom-------------------------------------*/
+.header-bottom{
+height: 33px;
+border-top: 1px solid rgba((0), 0, 0, 0.17);
+border-bottom: 1px solid rgba((0), 0, 0, 0.17);
+background-color: #fafafa;
+text-decoration: none;
+}
+
+
+
+
+
+
+/*!--------------------------------main--------------------------------*/
+.breadcrumbs-container{
+
+}
+/*--------------------------------product-------------------------------------*/
+.product{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: #F3A847;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.product_image{
+    width: 60px;
+    height: 100px;
+    background-color: blue;
+
+}
+.product_desc{
+    width: 60px;
+    height: 100px;
+    background-color: saddlebrown;
+}
+.product_fees{
+    width: 60px;
+    height: 100px;
+    background-color: magenta;
+
+}
