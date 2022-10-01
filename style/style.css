@@ -179,12 +179,36 @@ section{
     height: 250px;
     width: 100%;
     justify-content: space-between;
+    display: ;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    width: 750px;
 }
 section p{
     font-size: 14px;
     height: 20px;
     color:#000
 }
+section.more-img{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    border: rgb(12, 12, 12) 2px solid;
+}
+.more-img{
+    width: 100px;
+}
+.more-img.boxe{
+    width: 50px;
+    background-color: white;
+    /* border: red 2px solid; */
+
+}
+
 .main-section{
     display: flex;
     justify-content: space-between;
@@ -195,21 +219,39 @@ section p{
 .left-section{
     width: 327px;
     height: 390px;
-    background: forestgreen;
+    /* border: red 2px solid; */
+    margin-left: 100px;
+ 
+    display: flex;
+    
 }
+.left-section img{
+    margin-top: 100px;
+}
+.left-section button{
+    border-radius: 10px;
+    padding: 5px;
+    width: 50px;
+    height: 30px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+
 .bottom-section{
     width:522px;
     height: 584px;
     background: forestgreen;
     margin-left: 397px;
     margin-right: 270px;
+    /* border: red 2px solid; */
 
 }
 .right-section{
     width: 242px;
     height: 254px;
-    background: forestgreen;
     border-radius: 10px;
     border: 0.994px #FFFFFF solid;
     margin-right: 20px;
+    /* border: red 2px solid; */
 }
